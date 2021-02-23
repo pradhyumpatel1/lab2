@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+
+html{
+    font-family:'Nanum Myeongjo', serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    padding: 1.25em 0.625em 1.25em 0.625em;
+}
+
+h1{
+    font-weight: bold;
+    line-height: 1.1em;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(130,130,217,1) 41%, rgba(0,212,255,1) 100%);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-bottom: .50em;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    background: #e109f0;
+    background-image: -webkit-linear-gradient(top, #e109f0, #734ec9);
+    background-image: -moz-linear-gradient(top, #e109f0, #734ec9);
+    background-image: -ms-linear-gradient(top, #e109f0, #734ec9);
+    background-image: -o-linear-gradient(top, #e109f0, #734ec9);
+    background-image: linear-gradient(to bottom, #e109f0, #734ec9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    
+    text-decoration: none;
+}
+button:hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 280px){
+    body{
+        display: grid;
+        justify-content: center;
+        font-size: 50%;
+    }
+}
+
+@media screen and (min-width: 500px){
+    body{
+        display: grid;
+        justify-content: center;
+        font-size: 80%;
+    }
+}
+@media screen and (min-width: 900px){
+    body{
+        display: grid;
+        justify-content: center;
+        font-size: 150%;
+    }
+}
